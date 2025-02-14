@@ -1,6 +1,6 @@
 /* Uncomment to enable TailwindCSS */
 
-/* @import "tailwindcss";
+@import "tailwindcss";
 
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
@@ -18,8 +18,27 @@ body {
   @media (prefers-color-scheme: light) {
     color-scheme: dark;
   }
-} */
+}
 
 body {
   font-family: "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+.sx-react-calendar-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  height: 700px;
+  max-height: 85vh;
+  border-radius: 12px;
+  background-color: #1e1e2f;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.sx-react-calendar-wrapper .sx-calendar {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+
+
